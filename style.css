@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+* {
+    padding: 0px;
+    margin: 0px;
+
+}
+
+/*HEADER*/
+header {
+    display: flex;
+    width: 428px;
+    height: 506px;
+    background-image: url('header-responsive.png');
+}
+
+.hug-header h1 {
+    width: 250px;
+    height: 64px;
+    margin-top: 70px;
+    margin-left: 24px;
+    font-family: 'Luckiest Guy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+
+.hug-header p {
+    width: 381px;
+    margin-top: 24px;
+    height: 132px;
+    margin-left: 24px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.buttons {
+    display: flex;
+    margin-top: 24px;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.buton1 {
+    width: 381px;
+    height: 54px;
+    border-radius: 28px;
+    margin-left: 24px;
+    border: none;
+    background-color: #FFFFFF;
+    color: #23272A;
+}
+
+.buton2 {
+    width: 381px;
+    height: 54px;
+    border-radius: 28px;
+    margin-left: 24px;
+    background-color: #23272A;
+    color:#FFFFFF;
+    border: none;
+}
+
+/*------------------------------------------------------------*/
+
+/*SECTION 01*/
+.section1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 428px;
+    height: 507px;
+}
+
+.section1 img {
+    margin-top: 40px;
+}
+
+.section1 h1 {
+    width: 370px;
+    height: 99px;
+    text-align: left;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+    color: #23272A;
+    margin-top: 27px;
+}
+
+.section1 p {
+    width: 378px;
+    height: 88px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #23272A;
+    text-align: left;
+    margin-top: 27px;
+}
+
+
+/*------------------------------------------------------------*/
+
+/*SECTION 02*/
+.section2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 428px;
+    height: 507px;
+    background-color: #F6F6F6;
+}
+
+.section2 h1 {
+    width: 370px;
+    height: 99px;
+    text-align: left;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+    color: #23272A;
+    margin-top: 27px;
+}
+
+.section2 p {
+    width: 378px;
+    height: 33px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #23272A;
+    text-align: left;
+    margin-top: -50px;
+    
+}
+
+
+/*------------------------------------------------------------*/
+
+/*SECTION 03*/
+.section3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 428px;
+    height: 507px;
+}
+
+.section3 h1 {
+    width: 370px;
+    height: 99px;
+    text-align: left;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+    color: #23272A;
+    margin-top: 27px;
+}
+
+.section3 p {
+    width: 378px;
+    height: 88px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #23272A;
+    text-align: left;
+    margin-top: -50px;
+}
+/*------------------------------------------------------------*/
+
+/*SECTION 04*/
+.section4 {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    width: 428px;
+    height: 507px;
+}
+
+.section4 h1 {
+    width: 370px;
+    height: 99px;
+    text-align: left;
+    font-family: 'Luckiest Guy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 32px;
+    color: #23272A;
+    margin-top: 27px;
+    margin-left: 24px;
+}
+
+.section4 p {
+    width: 378px;
+    height: 88px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #23272A;
+    text-align: left;
+    margin-top: 27px;
+}
+
+.section4 img {
+    margin-top: 27px;
+}
+/*------------------------------------------------------------*/
+/*FOOTER*/
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 429px;
+    height: 140px;
+    background-color: #23272A;
+}
+
+/*------------------------------------------------------------*/
+
